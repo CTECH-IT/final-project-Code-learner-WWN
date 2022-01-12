@@ -1,5 +1,5 @@
 const http = require('http');
-var dt = require('./RNG.js');
+var dt = require('./Home_RNG.js');
 
 const hostname = '127.0.0.1';
 const port = 3000;
