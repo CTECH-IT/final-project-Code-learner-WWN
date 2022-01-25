@@ -1,6 +1,5 @@
-var fs = require('fs');
-var dt = require('./Stat_Roll.js');
+var dt = require('./Stat_Roll_MK2.js');
 
-exports.Stat = function repeat(func, times) {
-    for (x = 0; x < times; x++); 
-}
+let x = dt.Rng()+dt.Rng();
+
+exports.Stat = x;
