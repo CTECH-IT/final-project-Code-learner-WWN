@@ -1,5 +1,10 @@
-var dt = require('./Stat_Roll_MK2.js');
+var fs = require('fs');
+var dt = require('./Stat_Roll.js');
 
-let x = dt.Rng()+dt.Rng();
+let x = dt.Rng();
 
 exports.Stat = x;
+
+exports.Stat = function(){
+    x + x + 6;
+}
