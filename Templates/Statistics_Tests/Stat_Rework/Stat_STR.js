@@ -4,8 +4,5 @@ var dt = require('./Stat_Roll_Com.js');
 
 //append content at the end of the file:
 exports.Data_STR = function(){
-  fs.writeFile('Stats.txt', 'Your Strenght Stat is: \n' + dt.Stat(), function (err) {
-    if (err) throw err;
-    console.log('Updated!');
-  });
+    'Your Strenght Stat is: \n' + dt.Stat();
 }
