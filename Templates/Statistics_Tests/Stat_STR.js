@@ -4,5 +4,5 @@ var STAT =  require('./Stat_Roll_General');
 
 //append content at the end of the file:
 exports.Data_STR = function(){
-  return 'Your Strenght Stat is:\n' + dt.Stat()
+  return 'Your Strenght Stat is:\n' + STAT.Stat()
 }
